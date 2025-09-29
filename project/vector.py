@@ -6,7 +6,7 @@ import math
 from typing import List
 
 
-def length(vec: list[float]) -> float:
+def length(vec: List[float]) -> float:
     """
     Caculates the length of a vector.
 
@@ -22,7 +22,7 @@ def length(vec: list[float]) -> float:
     return sum([i**2 for i in vec]) ** 0.5
 
 
-def dot_product(vec1: list[float], vec2: list[float]) -> float:
+def dot_product(vec1: List[float], vec2: List[float]) -> float:
     """
     Calculates dot product of two vectors.
 
@@ -42,7 +42,7 @@ def dot_product(vec1: list[float], vec2: list[float]) -> float:
     return sum(vec1[i] * vec2[i] for i in range(len(vec1)))
 
 
-def angle(vec1: list[float], vec2: list[float]) -> float:
+def angle(vec1: List[float], vec2: List[float]) -> float:
     """
     Calculates angle between two vectors.
 
