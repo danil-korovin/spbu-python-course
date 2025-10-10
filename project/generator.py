@@ -2,46 +2,45 @@ from typing import Any, Generator, Iterable, Callable, Iterator
 from functools import reduce
 
 
-def generate(val: Iterable[Any]) -> Generator[Any, None, None]:
+def generate(start: int, end: int) -> Generator[Any, None, None]:
     """
-    The function generate converts any iterable object into lazy generator which yields elements one by one.
+    The function 'generate' creates a lazy sequence of numbers from start to end inclusive.
 
     Args:
-         val: (Iterable[Any]): Any object that supports iteration with any type of elements.
+        start: int: First integer value of the sequence.
+        end: int: Last integer value of the sequence (inclusive).
 
     Yield:
-        Generator[Any, None, None]: Generator yields elements of any type from the input iterable.
-        YeildType: Any - Generator yields elements of any type.
+        int: Next integer value in the range from start to end.
 
     Mypy:
         SendType: None - Not used.
         ReturnType: None - Not used.
     """
 
-    for elem in val:
-        yield elem
+    for val in range(start, end + 1):
+        yield val
 
 
-def conveyor(
-    val: Iterable[Any],
-    *operations: Callable[[Iterator[Any]], Generator[Any, None, None]]
-) -> Generator[Any, None, None]:
+def pipeline(
+    val: Iterable[Any], *operations: Callable[[Iterator[Any]], Iterator[Any]]
+) -> Iterator[Any]:
     """
-    The function conveyor creates a lazy data processing conveyor by applying operations to the data stream.
+    The function pipeline creates a lazy data processing pipeline by applying operations to the data stream.
 
     Args:
         val: Iterable[Any]: The iterable data values of any type.
-        *operations: Callable[[Iterator[Any]], Generator[Any, None, None]]: Function that takes Iterator[Any] argument and returns a generator which produces elements of any type.
+        *operations: Callable[[Iterator[Any]], Iterator[Any]]: Function that takes Iterator[Any] argument and returns a iterator which produces elements of any type.
 
     Returns:
-        Generator[Any, None, None]: Generator that produces transformed data stream.
+        Iterator[Any]: Generator that produces transformed data stream.
 
     Mypy:
         SendType: None - Not used.
         ReturnType: None - Not used.
     """
 
-    stream = generate(val)
+    stream = iter(val)
     for elem in operations:
         stream = elem(stream)
 
