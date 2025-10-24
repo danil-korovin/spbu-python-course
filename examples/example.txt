@@ -1,0 +1,541 @@
+Round 1
+Winning number: 31
+
+Bot 1
+Balance: 1000
+Bet amount: 100
+Bet: SingleBet(34)
+Result: Loses 100
+Strategy: AggressiveStrategy
+New balance: 900
+
+Bot 2
+Balance: 800
+Bet amount: 160
+Bet: SplitBet(35, 36)
+Result: Loses 160
+Strategy: ScamStrategy
+New balance: 640
+
+Bot 3
+Balance: 600
+Bet amount: 60
+Bet: StreetBet(19-21)
+Result: Loses 60
+Strategy: ProStrategy
+New balance: 540
+
+Bot 4
+Balance: 400
+Bet amount: 20
+Bet: SnakeBet
+Result: Loses 20
+Strategy: NoobStrategy
+New balance: 380
+
+Bot 5
+Balance: 200
+Bet amount: 40
+Bet: Dozen(1)
+Result: Loses 40
+Strategy: RiskyStrategy
+New balance: 160
+
+Bot 6
+Balance: 50
+Bet amount: 5
+Bet: Color(BLACK)
+Coefficient: 1
+Result: Wins 5
+Strategy: ClassicStrategy
+New balance: 55
+
+Round 2
+Winning number: 5
+
+Bot 1
+Balance: 900
+Bet amount: 90
+Bet: SingleBet(35)
+Result: Loses 90
+Strategy: AggressiveStrategy
+New balance: 810
+
+Bot 2
+Balance: 640
+Bet amount: 64
+Bet: StreetBet(4-6)
+Coefficient: 11
+Result: Wins 704
+Strategy: ProStrategy
+New balance: 1344
+
+Bot 3
+Balance: 540
+Bet amount: 54
+Bet: StreetBet(10-12)
+Result: Loses 54
+Strategy: ProStrategy
+New balance: 486
+
+Bot 4
+Balance: 380
+Bet amount: 19
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 38
+Strategy: NoobStrategy
+New balance: 418
+
+Bot 5
+Balance: 160
+Bet amount: 32
+Bet: Dozen(2)
+Result: Loses 32
+Strategy: RiskyStrategy
+New balance: 128
+
+Bot 6
+Balance: 55
+Bet amount: 5
+Bet: Color(RED)
+Coefficient: 1
+Result: Wins 5
+Strategy: ClassicStrategy
+New balance: 60
+
+Round 3
+Winning number: 14
+
+Bot 1
+Balance: 810
+Bet amount: 162
+Bet: SplitBet(13, 14)
+Coefficient: 17
+Result: Wins 2754
+Strategy: ScamStrategy
+New balance: 3564
+
+Bot 2
+Balance: 1344
+Bet amount: 134
+Bet: SingleBet(30)
+Result: Loses 134
+Strategy: AggressiveStrategy
+New balance: 1210
+
+Bot 3
+Balance: 486
+Bet amount: 24
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 48
+Strategy: NoobStrategy
+New balance: 534
+
+Bot 4
+Balance: 418
+Bet amount: 20
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 40
+Strategy: NoobStrategy
+New balance: 458
+
+Bot 5
+Balance: 128
+Bet amount: 25
+Bet: Dozen(2)
+Coefficient: 2
+Result: Wins 50
+Strategy: RiskyStrategy
+New balance: 178
+
+Bot 6
+Balance: 60
+Bet amount: 6
+Bet: Color(BLACK)
+Result: Loses 6
+Strategy: ClassicStrategy
+New balance: 54
+
+Round 4
+Winning number: 6
+
+Bot 1
+Balance: 3564
+Bet amount: 356
+Bet: SingleBet(15)
+Result: Loses 356
+Strategy: AggressiveStrategy
+New balance: 3208
+
+Bot 2
+Balance: 1210
+Bet amount: 121
+Bet: SingleBet(6)
+Coefficient: 35
+Result: Wins 4235
+Strategy: AggressiveStrategy
+New balance: 5445
+
+Bot 3
+Balance: 534
+Bet amount: 53
+Bet: StreetBet(13-15)
+Result: Loses 53
+Strategy: ProStrategy
+New balance: 481
+
+Bot 4
+Balance: 458
+Bet amount: 22
+Bet: SnakeBet
+Result: Loses 22
+Strategy: NoobStrategy
+New balance: 436
+
+Bot 5
+Balance: 178
+Bet amount: 35
+Bet: Dozen(3)
+Result: Loses 35
+Strategy: RiskyStrategy
+New balance: 143
+
+Bot 6
+Balance: 54
+Bet amount: 5
+Bet: Color(RED)
+Result: Loses 5
+Strategy: ClassicStrategy
+New balance: 49
+
+Round 5
+Winning number: 10
+
+Bot 1
+Balance: 3208
+Bet amount: 320
+Bet: SingleBet(35)
+Result: Loses 320
+Strategy: AggressiveStrategy
+New balance: 2888
+
+Bot 2
+Balance: 5445
+Bet amount: 544
+Bet: SingleBet(10)
+Coefficient: 35
+Result: Wins 19040
+Strategy: AggressiveStrategy
+New balance: 24485
+
+Bot 3
+Balance: 481
+Bet amount: 24
+Bet: SnakeBet
+Result: Loses 24
+Strategy: NoobStrategy
+New balance: 457
+
+Bot 4
+Balance: 436
+Bet amount: 21
+Bet: SnakeBet
+Result: Loses 21
+Strategy: NoobStrategy
+New balance: 415
+
+Bot 5
+Balance: 143
+Bet amount: 28
+Bet: Dozen(1)
+Coefficient: 2
+Result: Wins 56
+Strategy: RiskyStrategy
+New balance: 199
+
+Bot 6
+Balance: 49
+Bet amount: 4
+Bet: Color(RED)
+Result: Loses 4
+Strategy: ClassicStrategy
+New balance: 45
+
+Round 6
+Winning number: 12
+
+Bot 1
+Balance: 2888
+Bet amount: 288
+Bet: SingleBet(25)
+Result: Loses 288
+Strategy: AggressiveStrategy
+New balance: 2600
+
+Bot 2
+Balance: 24485
+Bet amount: 2448
+Bet: SingleBet(19)
+Result: Loses 2448
+Strategy: AggressiveStrategy
+New balance: 22037
+
+Bot 3
+Balance: 457
+Bet amount: 22
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 44
+Strategy: NoobStrategy
+New balance: 501
+
+Bot 4
+Balance: 415
+Bet amount: 20
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 40
+Strategy: NoobStrategy
+New balance: 455
+
+Bot 5
+Balance: 199
+Bet amount: 39
+Bet: Dozen(2)
+Result: Loses 39
+Strategy: RiskyStrategy
+New balance: 160
+
+Bot 6
+Balance: 45
+Bet amount: 4
+Bet: Color(RED)
+Coefficient: 1
+Result: Wins 4
+Strategy: ClassicStrategy
+New balance: 49
+
+Round 7
+Winning number: 19
+
+Bot 1
+Balance: 2600
+Bet amount: 260
+Bet: SingleBet(11)
+Result: Loses 260
+Strategy: AggressiveStrategy
+New balance: 2340
+
+Bot 2
+Balance: 22037
+Bet amount: 2203
+Bet: SingleBet(24)
+Result: Loses 2203
+Strategy: AggressiveStrategy
+New balance: 19834
+
+Bot 3
+Balance: 501
+Bet amount: 50
+Bet: StreetBet(19-21)
+Coefficient: 11
+Result: Wins 550
+Strategy: ProStrategy
+New balance: 1051
+
+Bot 4
+Balance: 455
+Bet amount: 22
+Bet: SnakeBet
+Coefficient: 2
+Result: Wins 44
+Strategy: NoobStrategy
+New balance: 499
+
+Bot 5
+Balance: 160
+Bet amount: 32
+Bet: Dozen(3)
+Result: Loses 32
+Strategy: RiskyStrategy
+New balance: 128
+
+Bot 6
+Balance: 49
+Bet amount: 4
+Bet: Color(RED)
+Coefficient: 1
+Result: Wins 4
+Strategy: ClassicStrategy
+New balance: 53
+
+Round 8
+Winning number: 0
+
+Bot 1
+Balance: 2340
+Bet amount: 234
+Bet: SingleBet(20)
+Result: Loses 234
+Strategy: AggressiveStrategy
+New balance: 2106
+
+Bot 2
+Balance: 19834
+Bet amount: 1983
+Bet: SingleBet(9)
+Result: Loses 1983
+Strategy: AggressiveStrategy
+New balance: 17851
+
+Bot 3
+Balance: 1051
+Bet amount: 105
+Bet: SingleBet(8)
+Result: Loses 105
+Strategy: AggressiveStrategy
+New balance: 946
+
+Bot 4
+Balance: 499
+Bet amount: 24
+Bet: SnakeBet
+Result: Loses 24
+Strategy: NoobStrategy
+New balance: 475
+
+Bot 5
+Balance: 128
+Bet amount: 25
+Bet: Dozen(1)
+Result: Loses 25
+Strategy: RiskyStrategy
+New balance: 103
+
+Bot 6
+Balance: 53
+Bet amount: 5
+Bet: Color(BLACK)
+Result: Loses 5
+Strategy: ClassicStrategy
+New balance: 48
+
+Round 9
+Winning number: 35
+
+Bot 1
+Balance: 2106
+Bet amount: 210
+Bet: SingleBet(34)
+Result: Loses 210
+Strategy: AggressiveStrategy
+New balance: 1896
+
+Bot 2
+Balance: 17851
+Bet amount: 1785
+Bet: SingleBet(28)
+Result: Loses 1785
+Strategy: AggressiveStrategy
+New balance: 16066
+
+Bot 3
+Balance: 946
+Bet amount: 94
+Bet: SingleBet(28)
+Result: Loses 94
+Strategy: AggressiveStrategy
+New balance: 852
+
+Bot 4
+Balance: 475
+Bet amount: 23
+Bet: SnakeBet
+Result: Loses 23
+Strategy: NoobStrategy
+New balance: 452
+
+Bot 5
+Balance: 103
+Bet amount: 20
+Bet: Dozen(2)
+Result: Loses 20
+Strategy: RiskyStrategy
+New balance: 83
+
+Bot 6
+Balance: 48
+Bet amount: 4
+Bet: Color(RED)
+Result: Loses 4
+Strategy: ClassicStrategy
+New balance: 44
+
+Round 10
+Winning number: 11
+
+Bot 1
+Balance: 1896
+Bet amount: 189
+Bet: SingleBet(34)
+Result: Loses 189
+Strategy: AggressiveStrategy
+New balance: 1707
+
+Bot 2
+Balance: 16066
+Bet amount: 1606
+Bet: SingleBet(25)
+Result: Loses 1606
+Strategy: AggressiveStrategy
+New balance: 14460
+
+Bot 3
+Balance: 852
+Bet amount: 170
+Bet: SplitBet(31, 32)
+Result: Loses 170
+Strategy: ScamStrategy
+New balance: 682
+
+Bot 4
+Balance: 452
+Bet amount: 22
+Bet: SnakeBet
+Result: Loses 22
+Strategy: NoobStrategy
+New balance: 430
+
+Bot 5
+Balance: 83
+Bet amount: 8
+Bet: Color(RED)
+Result: Loses 8
+Strategy: ClassicStrategy
+New balance: 75
+
+Bot 6
+Balance: 44
+Bet amount: 4
+Bet: Color(BLACK)
+Coefficient: 1
+Result: Wins 4
+Strategy: ClassicStrategy
+New balance: 48
+
+Game Over
+Bot 1: Final Balance = 1707
+Wins 707
+Bot 2: Final Balance = 14460
+Wins 13660
+Bot 3: Final Balance = 682
+Wins 82
+Bot 4: Final Balance = 430
+Wins 30
+Bot 5: Final Balance = 75
+Loses -125
+Bot 6: Final Balance = 48
+Loses -2
