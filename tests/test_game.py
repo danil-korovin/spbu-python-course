@@ -1,23 +1,26 @@
 import pytest
-from project.game import (
-    Wheel,
+from project.game_bet import (
     Color,
+    Wheel,
+    Bet,
     SingleBet,
     SplitBet,
     StreetBet,
     ColorBet,
     DozenBet,
     SnakeBet,
-    Bot,
+)
+from project.game_bot import Bot
+from project.game_strategy import (
+    Strategy,
     ClassicStrategy,
     RiskyStrategy,
     NoobStrategy,
     ProStrategy,
     ScamStrategy,
     AggressiveStrategy,
-    Game,
 )
-
+from project.game_play import Game
 import random
 
 
